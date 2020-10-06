@@ -1,0 +1,23 @@
+{
+    "name": "webservices/webservices",
+    "description": "Webservices",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Art",
+            "email": "hello@artem.page"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "core/"
+        }
+    }
+}
